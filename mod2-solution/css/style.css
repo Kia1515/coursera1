@@ -1,48 +1,61 @@
+/********** Base styles **********/
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-.box {
-    width: 700px
+  box-sizing: border-box;
 }
 h1 {
-    text-align: center;
-    padding: 20px;
+  margin-bottom: 15px;
+  text-align: center;
 }
-h4 {
-    margin: 0px;
-    padding: 5px;
-    border: 1px solid black;
-    border-top: 0px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+
+section{
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background-color: #a8afba;
+  position: relative;
+  overflow: auto;
+  margin: 10px;
 }
+#chicken, #beef, #sushi{
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  float:right;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: cosmic san-serif;
+  font-weight: bold;
+  font-size: 125%;
+  padding: 5px;
+}
+#chicken {
+  background-color: #cf5b53;
+}
+#beef{
+  background-color: #ad322a;
+  color: white;
+}
+#sushi{
+  background-color: #e0cc84;
+}
+
 p {
-    color: #4cae4c;
-    padding: 50px 17px 10px 17px;
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
 }
-.backgroud-1 {
-    background-color: #0081ff;
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
 }
-.backgroud-2 {
-    background-color: #00ff4b;
-}
-.backgroud-3 {
-    background-color: #ff0062;
-    color: #ffffff;
-}
-.p-section {
-    height: 250px;
-    background-color: #3e2723;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    position: relative;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
@@ -86,7 +99,7 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 1px solid green;
