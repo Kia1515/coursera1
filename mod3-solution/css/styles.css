@@ -1,0 +1,25 @@
+/* Navbar */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+/* Navbar - Mobile View */
+.dropdown-menu {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Page Heading */
+.page-heading {
+  text-align: center;
+}
+
+/* Tall Section */
+.tall-section {
+  height: 1000px;
+  background-color: #f8f8f8;
+}
