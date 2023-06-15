@@ -11,41 +11,33 @@
 
  </head>
 <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <div class="navbar-brand">
-                    <a href="index.html"><h1>Food, LLC</h1></a>
-                </div>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+   <header>
+    <nav id="header-nav" class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
+        <!-- Drop down only visible in XS or SM resolution -->
+        <button class="navbar-toggler d-block d-sm-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
-            <div id="collapsable-nav" class="collapse navbar-collapse">
-                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-                    <li>
-                        <p class="text-center"> Chicken </p>
-                    </li>
-                    <li>
-                        <p class="text-center"> Beef </p>
-                    </li>
-                    <li>
-                        <p class="text-center"> Sushi </p>
-                    </li>
-                </ul><!-- #nav-list -->
-            </div><!-- .collapse .navbar-collapse -->
-        </div><!-- .container -->
-    </nav><!-- #header-nav -->
-</header>
-
-<div id="main-content" class="container">
-    <div id="home-tiles" class="row">
-        <div class="col-xs-12">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- d-block d-sm-block d-md-none is to make sure it does not show the list in md or larger display -->
+          <ul class="navbar-nav d-block d-sm-block d-md-none" id="nav-list">
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="#chicken-section">Chicken</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#beef-section">Beef</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#sushi-section">Sushi</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end of collapsible navbar -->
+    </nav>
+  </header>
             <h1 class="text-center"> Our Menu</h1>
         </div>
   
