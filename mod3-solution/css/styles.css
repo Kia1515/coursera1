@@ -1,10 +1,30 @@
+body {
+  font-size: 15px;
+  color: #ffffff;
+  background-color:#000000;
+  font-family: 'Oxygen', sans-serif;
+}
+
 /* Navbar */
 .navbar {
   background-color: transparent;
 }
 
 .navbar-brand {
-  padding-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #951C49;
+    text-align: center;
 }
 
 /* Navbar - Mobile View */
@@ -22,4 +42,17 @@
 .tall-section {
   height: 1000px;
   background-color: #f8f8f8;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+
+
+#nav-list li p {
+    background: #8e24aa;
 }

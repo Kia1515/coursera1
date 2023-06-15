@@ -12,64 +12,81 @@
  </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
-        <!-- Drop down only visible in XS or SM resolution -->
-        <button class="navbar-toggler d-block d-sm-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>Food, LLC</h1></a>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <!-- d-block d-sm-block d-md-none is to make sure it does not show the list in md or larger display -->
-          <ul class="navbar-nav d-block d-sm-block d-md-none" id="nav-list">
-            <li class="nav-item text-center">
-              <a class="nav-link" aria-current="page" href="#chicken-section">Chicken</a>
-            </li>
-            <li class="nav-item text-center">
-              <a class="nav-link" href="#beef-section">Beef</a>
-            </li>
-            <li class="nav-item text-center">
-              <a class="nav-link" href="#sushi-section">Sushi</a>
-            </li>
-          </ul>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                    <li>
+                        <p class="text-center"> Chicken </p>
+                    </li>
+                    <li>
+                        <p class="text-center"> Beef </p>
+                    </li>
+                    <li>
+                        <p class="text-center"> Sushi </p>
+                    </li>
+                </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+    </nav><!-- #header-nav -->
+</header>
+
+<div id="main-content" class="container">
+    <div id="home-tiles" class="row">
+        <div class="col-xs-12">
+            <h1 class="text-center"> Our Menu</h1>
         </div>
-        <!-- end of collapsible navbar -->
-    </nav>
-  </header>
+  
+  <div class="container">        
+    <div class ="row">          
+      <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="chicken-section">            
+        <h2 class="text-center">Chicken</h2>                   
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna condimentum. Dui faucibus in ornare quam viverra. Ultrices in iaculis nunc sed augue. In ornare quam viverra orci sagittis eu volutpat. Duis ut diam quam nulla porttitor massa id. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Lacus vestibulum sed arcu non odio. Pharetra magna ac placerat vestibulum lectus. Vestibulum morbi blandit cursus risus at ultrices. Vulputate enim nulla aliquet porttitor lacus luctus accumsan.
 
-  <h2 class="text-center menu">Our Menu</h2>
+Id interdum velit laoreet id donec ultrices. Semper risus in hendrerit gravida rutrum quisque. In tellus integer feugiat scelerisque varius. Venenatis urna cursus eget nunc scelerisque. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Velit dignissim sodales ut eu sem integer. Vulputate ut pharetra sit amet aliquam id diam. Euismod lacinia at quis risus sed vulputate odio. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Tempor orci dapibus ultrices in iaculis nunc. Odio facilisis mauris sit amet massa. Nulla posuere sollicitudin aliquam ultrices sagittis. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. At erat pellentesque adipiscing commodo elit at. Massa tincidunt nunc pulvinar sapien. Sed cras ornare arcu dui vivamus arcu. Bibendum at varius vel pharetra vel turpis nunc eget lorem. In dictum non consectetur a erat nam at lectus. Sem viverra aliquet eget sit amet tellus cras.
 
-  <div class="row">
+Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Id volutpat lacus laoreet non curabitur gravida arcu. Blandit volutpat maecenas volutpat blandit aliquam. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Ac feugiat sed lectus vestibulum mattis ullamcorper. Pulvinar pellentesque habitant morbi tristique senectus et. In ornare quam viverra orci sagittis eu volutpat odio. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Ornare aenean euismod elementum nisi quis eleifend. Amet aliquam id diam maecenas ultricies. In massa tempor nec feugiat. Vivamus arcu felis bibendum ut tristique. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue. Turpis cursus in hac habitasse platea.              
+          <br>(End of Chicken section)  <a href="#header-nav"> Back To Top </a> </p>      
+        </div>    
+      </div> 
+    </div>          
+  <div class="container">        
+    <div class ="row">          
+      <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="beef-section">            
+        <h2 class="text-center">Beef</h2>                   
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna condimentum. Dui faucibus in ornare quam viverra. Ultrices in iaculis nunc sed augue. In ornare quam viverra orci sagittis eu volutpat. Duis ut diam quam nulla porttitor massa id. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Lacus vestibulum sed arcu non odio. Pharetra magna ac placerat vestibulum lectus. Vestibulum morbi blandit cursus risus at ultrices. Vulputate enim nulla aliquet porttitor lacus luctus accumsan.
 
+Id interdum velit laoreet id donec ultrices. Semper risus in hendrerit gravida rutrum quisque. In tellus integer feugiat scelerisque varius. Venenatis urna cursus eget nunc scelerisque. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Velit dignissim sodales ut eu sem integer. Vulputate ut pharetra sit amet aliquam id diam. Euismod lacinia at quis risus sed vulputate odio. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Tempor orci dapibus ultrices in iaculis nunc. Odio facilisis mauris sit amet massa. Nulla posuere sollicitudin aliquam ultrices sagittis. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. At erat pellentesque adipiscing commodo elit at. Massa tincidunt nunc pulvinar sapien. Sed cras ornare arcu dui vivamus arcu. Bibendum at varius vel pharetra vel turpis nunc eget lorem. In dictum non consectetur a erat nam at lectus. Sem viverra aliquet eget sit amet tellus cras.
 
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" id="chicken-section">
-      <div class="container">
-        <h2 class="text-center">Chicken</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <br>(End of Chicken section)  <a href="#header-nav"> Back To Top </a> </p>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" id="beef-section">
-      <div class="container">
-        <h2 class="text-center">Beef</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        <br>(End of Beef section)  <a href="#header-nav"> Back To Top </a></p>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" id="sushi-section">
-
-      <div class="container">
+Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Id volutpat lacus laoreet non curabitur gravida arcu. Blandit volutpat maecenas volutpat blandit aliquam. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Ac feugiat sed lectus vestibulum mattis ullamcorper. Pulvinar pellentesque habitant morbi tristique senectus et. In ornare quam viverra orci sagittis eu volutpat odio. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Ornare aenean euismod elementum nisi quis eleifend. Amet aliquam id diam maecenas ultricies. In massa tempor nec feugiat. Vivamus arcu felis bibendum ut tristique. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue. Turpis cursus in hac habitasse platea.            
+          <br>(End of Beef section)  <a href="#header-nav"> Back To Top </a> </p>      
+        </div>    
+      </div> 
+    </div>     
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="sushi-section">
         <h2 class="text-center">Sushi</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cil
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna condimentum. Dui faucibus in ornare quam viverra. Ultrices in iaculis nunc sed augue. In ornare quam viverra orci sagittis eu volutpat. Duis ut diam quam nulla porttitor massa id. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Lacus vestibulum sed arcu non odio. Pharetra magna ac placerat vestibulum lectus. Vestibulum morbi blandit cursus risus at ultrices. Vulputate enim nulla aliquet porttitor lacus luctus accumsan.
+
+Id interdum velit laoreet id donec ultrices. Semper risus in hendrerit gravida rutrum quisque. In tellus integer feugiat scelerisque varius. Venenatis urna cursus eget nunc scelerisque. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Velit dignissim sodales ut eu sem integer. Vulputate ut pharetra sit amet aliquam id diam. Euismod lacinia at quis risus sed vulputate odio. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Tempor orci dapibus ultrices in iaculis nunc. Odio facilisis mauris sit amet massa. Nulla posuere sollicitudin aliquam ultrices sagittis. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. At erat pellentesque adipiscing commodo elit at. Massa tincidunt nunc pulvinar sapien. Sed cras ornare arcu dui vivamus arcu. Bibendum at varius vel pharetra vel turpis nunc eget lorem. In dictum non consectetur a erat nam at lectus. Sem viverra aliquet eget sit amet tellus cras.
+
+Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Id volutpat lacus laoreet non curabitur gravida arcu. Blandit volutpat maecenas volutpat blandit aliquam. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Ac feugiat sed lectus vestibulum mattis ullamcorper. Pulvinar pellentesque habitant morbi tristique senectus et. In ornare quam viverra orci sagittis eu volutpat odio. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Ornare aenean euismod elementum nisi quis eleifend. Amet aliquam id diam maecenas ultricies. In massa tempor nec feugiat. Vivamus arcu felis bibendum ut tristique. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue. Turpis cursus in hac habitasse platea.
         <br>(End of Sushi section)  <a href="#header-nav"> Back To Top </a></p>
       </div>
     </div>
-
-
   </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
